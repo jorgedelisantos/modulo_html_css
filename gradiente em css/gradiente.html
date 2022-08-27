@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+       
+     /*{height: 100%;essa e uma (*regra) configuraçao globais das css */ 
+       
+        
+            div{
+            border:#120658 solid 5px;
+            padding: 5px;
+            width: 450px;
+            height: 150px;
+            border-style:double;
+            margin-top: 5px;
+            }
+    
+        
+            #div1{  
+            background-image:linear-gradient(to left,#064b03,#74FF2B,#67b43d,#ffffff);
+        }
+      
+
+            
+        p {
+            color: rgb(131, 15, 15);
+            font-size: 17px; 
+        }
+#div2{
+    background-image:linear-gradient(to right,#115753,#38706d,#21a39d,#30f0e6,#ffffff);
+}
+   </style>
+    
+       
+    
+</head>
+<body>
+<h1> Testando Gradiente</h1>
+<div id="div1">
+    <p>FUNDO <br>
+        #4453FF <br>
+        #74FF2B <br>
+        #67b43d <br>
+
+    </p>
+
+</div>
+<div id="div2">
+    <p>
+        FUNDO <br>
+      #5EABBD <br>
+      #C0C93A <br>
+      #6F7DA3 <br>  
+    </p>
+</div>
+</body>
+</html>
